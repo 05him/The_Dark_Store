@@ -1,0 +1,44 @@
+@import url(../../index.css);
+
+main {
+  margin: 15rem auto 5rem;
+}
+
+.login-box {
+  width: 42%;
+  background: var(--text-color);
+  margin: auto;
+  padding: 1rem 4rem;
+  color: var(--card-text);
+  border-radius: 10px;
+}
+
+.login-box a {
+  color: var(--card-text);
+}
+
+.login-box h2 {
+  margin: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.input-box {
+  width: 100%;
+  margin: auto;
+}
+
+.input-box input {
+  width: 90%;
+  margin: 0.5rem 0;
+}
+
+.forget-password {
+  text-align: right;
+  margin-right: 1.5rem;
+}
+
+.login-box .btn-primary {
+  width: 90%;
+  margin: 1rem auto;
+}
