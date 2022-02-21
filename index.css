@@ -40,8 +40,8 @@ body a {
 .div-search-bar {
   width: 22rem;
   height: 3rem;
-  background: var(--text-color);
   border-radius: 10px;
+  border: 1px solid var(--text-color);
   padding: 0.3rem;
 }
 
@@ -50,13 +50,15 @@ body a {
   height: 2rem;
   padding: 0.2rem;
   border-radius: 10px;
+  background: var(--bg-color);
+  border: 1px solid var(--text-color);
 }
 
 .div-search-bar span {
   width: 10%;
   font-size: 1.5rem;
-  background: var(--text-color);
-  color: var(--card-text);
+  background: var(--bg-color);
+  color: var(--text-color);
   cursor: pointer;
 }
 
