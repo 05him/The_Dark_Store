@@ -1,0 +1,23 @@
+@import url(../../index.css);
+@import url(../product-page/product-page.css);
+
+.main {
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 5rem;
+}
+
+.products {
+  justify-content: space-between;
+  margin: auto;
+}
+
+.wishlist-heading {
+  margin: 2rem auto;
+}
+
+.wishlist-heading h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: auto;
+}
