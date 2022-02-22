@@ -67,6 +67,12 @@ body a {
   font-size: 1.1rem;
 }
 
+.badge-box:hover,
+.header-link-sec button:hover {
+  box-shadow: 2px 2px 6px 2px var(--secondary-color);
+  transform: scale(1.1);
+}
+
 .header-link-sec .btn-a {
   color: var(--card-text);
 }
