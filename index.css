@@ -40,8 +40,8 @@ body a {
 .div-search-bar {
   width: 22rem;
   height: 3rem;
-  background: var(--text-color);
   border-radius: 10px;
+  border: 1px solid var(--text-color);
   padding: 0.3rem;
 }
 
@@ -50,19 +50,27 @@ body a {
   height: 2rem;
   padding: 0.2rem;
   border-radius: 10px;
+  background: var(--bg-color);
+  border: 1px solid var(--text-color);
 }
 
 .div-search-bar span {
   width: 10%;
   font-size: 1.5rem;
-  background: var(--text-color);
-  color: var(--card-text);
+  background: var(--bg-color);
+  color: var(--text-color);
   cursor: pointer;
 }
 
 .a-header {
   margin: 0.9rem;
   font-size: 1.1rem;
+}
+
+.badge-box:hover,
+.header-link-sec button:hover {
+  box-shadow: 2px 2px 6px 2px var(--secondary-color);
+  transform: scale(1.1);
 }
 
 .header-link-sec .btn-a {

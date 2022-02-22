@@ -1,0 +1,84 @@
+@import url(../../index.css);
+
+body {
+  margin-top: 6rem;
+}
+
+hr {
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.main {
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 95%;
+}
+
+aside {
+  margin: 0 2rem 0 2rem;
+  width: 22%;
+}
+
+.aside {
+  position: fixed;
+  padding: 0.5rem 1rem;
+  box-shadow: 2px 0 5px 0px var(--primary-color);
+  border-radius: 15px;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  width: 70%;
+}
+
+section h2 {
+  font-weight: 500;
+}
+
+.products {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.products .card-box-vertical {
+  width: 15rem;
+  height: 25rem;
+}
+
+.card-box-vertical .img-responsive {
+  height: 10rem;
+}
+
+.card-title {
+  font-size: 1em;
+}
+
+.card-price-final {
+  font-size: 1.3em;
+}
+
+.card-desc {
+  font-size: 0.8em;
+}
+
+.card-btn-box {
+  height: 4rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-btn-box button {
+  padding: 0.2em;
+  height: 45%;
+  width: 90%;
+  font-size: 0.8em;
+}
+
+.card-badge-top-right {
+  width: 2.2rem;
+  height: 2.2rem;
+}

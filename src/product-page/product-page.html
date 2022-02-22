@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | The Dark Store</title>
+    <link
+      rel="stylesheet"
+      href="https://05him.github.io/Dark_UI/components/components.css"
+    />
+    <link rel="stylesheet" href="product-page.css">
+    <link rel="icon" href="../../assets/favicon.ico">
+    <script src="https://kit.fontawesome.com/d9dd91a45f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header flex-center">
+        <a href="../../index.html" class="header-logo"><span>&#128128The-DARK-Store</span></a>
+        <div class="div-search-bar flex-center">
+            <span> 🔍︎</span>
+            <input type="text" placeholder="search here...">
+        </div>
+        <div class="header-link-sec flex-center">
+            <div class="badge-box">
+                <a class="a-header" href="../../src/wishlist/wishlist.html"><img src="../../assets/empty-heart.svg"></a>
+                <div class="number-badge">0</div>
+            </div>
+            <div class="badge-box">
+                <a class="a-header" href="../../src/cart/cart.html"><img src="../../assets/cart.svg"></a>
+                <div class="number-badge">0</div>
+            </div>
+            <button type="button" class="btn"><a href="../../src/auth/login.html" class="btn-a">Login</a></button>
+        </div>
+    </header>
+    
+    <main class="flex-center main">
+        <aside>
+            <div class="aside">
+                <h2>Filters</h2>
+                <hr>
+                <h3 class="h3">Price</h3>
+                <div class="slider-box flex-center">
+                    <span class="flex-center slider-no">
+                     <span class="text-m">100</span>
+                     <span class="text-m">150</span>
+                     <span class="text-m">200</span>
+                     <span class="text-m">250</span>
+                     <span class="text-m">300</span>
+                    </span>
+                     <input type="range" list="tickmarks" step="50" min="100" max="300" value="150" class="block">
+                </div>
+                <hr>
+                <h3 class="h3">Category</h3>
+                <label class="block"><input type="checkbox">Men Clothing</label>
+                <label class="block"><input type="checkbox" checked>Men Clothing</label>
+                <hr>
+                <h3 class="h3">Rating</h3>
+                <label class="block"><input type="radio" name="rating" value="4+">4star & above</label>
+                <label class="block"><input type="radio" checked name="rating" value="3+">3star & above</label>
+                <label class="block"><input type="radio" name="rating" value="2+">2star & above</label>
+                <label class="block"><input type="radio" name="rating" value="1+">1star & above</label>
+                <hr>
+                <h3 class="h3">Sort by</h3>
+                <label class="block"><input type="radio" name="sort" value="">Price-Low to High</label>
+                <label class="block"><input type="radio" checked name="sort" value="">Price-High to Low</label>
+            </div>
+        </aside>
+        <section>
+            <h2>Showing All Products <span class="text-s">( Showing 20 products )</span></h2>
+            <div class="products flex-center">
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/red-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Go To 		Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/black-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/black-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/black-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/black-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/red-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/red-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-vertical">
+                    <div class="card-img flex-center">
+                        <img class="card-badge-top-right" src="../../assets/black-heart.svg">
+                        <img src="../../assets/jacket.svg" class="img-responsive">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-desc block">Hey This Is A Tensiosn Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary block">Add To Cart</button>
+                            <button type="button" class="btn btn-secondary-outline block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex-center footer-top">
+            <a href="../../index.html" class="header-logo"><span>&#128128The-DARK-Store</span></a>
+            <ul>
+                <span class="block text-l">Quick Links</span>
+                <li><a href="product-page.html"> Product Section</a></li>
+                <li><a  href="../../src/cart/cart.html">Cart</a></li>
+                <li> <a href="../../src/wishlist/wishlist.html">Wishlist</a></li>
+            </ul>
+        </div>
+        <div class="footer-name">Made with ❤️ by HiManshu ;)</div>
+    </footer>   
+  </body>
+</html>
