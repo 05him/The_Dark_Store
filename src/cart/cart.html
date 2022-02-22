@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart | The Dark Store</title>
+    <link
+      rel="stylesheet"
+      href="https://05him.github.io/Dark_UI/components/components.css"
+    />
+    <link rel="stylesheet" href="cart.css">
+    <link rel="icon" href="../../assets/favicon.ico">
+    <script src="https://kit.fontawesome.com/d9dd91a45f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header flex-center">
+        <a href="../../index.html" class="header-logo"><span>&#128128The-DARK-Store</span></a>
+        <div class="div-search-bar flex-center">
+            <span> 🔍︎</span>
+            <input type="text" placeholder="search here...">
+        </div>
+        <div class="header-link-sec flex-center">
+            <div class="badge-box">
+                <a class="a-header" href="../../src/wishlist/wishlist.html"><img src="../../assets/empty-heart.svg"></a>
+                <div class="number-badge">0</div>
+            </div>
+            <div class="badge-box">
+                <a class="a-header" href="../../src/cart/cart.html"><img src="../../assets/cart.svg"></a>
+                <div class="number-badge">0</div>
+            </div>
+            <button type="button" class="btn"><a href="../../src/auth/login.html" class="btn-a">Login</a></button>
+        </div>
+    </header>
+    
+    <main class="flex-center main">
+        <div class="cart-heading">
+            <h2>MY CART(2)</h2>
+        </div>
+        <div class="cart-content flex-center">
+            <div class="products">
+                <div class="card-box-horizontal flex-center">
+                    <div class="card-img flex-center">
+                      <img src="../../assets/jacket.svg">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-quantity">Quantity: <button type="button">-</button><input type="number" min="0" value="1"><button type="button">+</button></span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-secondary-outline">Remove from Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box-horizontal flex-center">
+                    <div class="card-img flex-center">
+                      <img src="../../assets/jacket.svg">
+                    </div>
+                    <div class="card-text">
+                        <h3 class="card-title">Tension Free Jacket</h3>
+                        <span class="card-price-final">₹2500</span>
+                        <span class="card-price-initial">₹5000</span>
+                        <span class="card-discount block">50% OFF</span>
+                        <span class="card-quantity">Quantity: <button type="button">-</button><input type="number" min="0" value="1"><button type="button">+</button></span>
+                        <div class="card-btn-box flex-center">
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-secondary-outline">Remove from Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-bill">
+                <div class="card-box-vertical card-text-only">
+                    <div class="card-text">
+                    <h3 class="card-title">Tension Free Jacket</h3>
+                    <hr>
+                    <div class="flex-center">Price(2items) <span class="cart-bill-price">₹4999</span></div>
+                    <div class="flex-center">Discount <span class="cart-bill-price">-₹4999</span></div>
+                    <div class="flex-center">Deleivery Charges<span class="cart-bill-price">₹10</span></div>
+                    <hr>
+                    <div class="cart-bill-final flex-center">TOTAL AMOUNT<span class="cart-bill-price">₹10</span></div>
+                    <hr>
+                    <div>You wil save ₹300 on this order</div>
+                    <button type="button" class="btn btn-primary">Place Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="flex-center footer-top">
+            <a href="../../index.html" class="header-logo"><span>&#128128The-DARK-Store</span></a>
+            <ul>
+                <span class="block text-l">Quick Links</span>
+                <li><a href="../../src/product-page/product-page.html"> Product Section</a></li>
+                <li><a  href="../../src/cart/cart.html">Cart</a></li>
+                <li> <a href="../../src/wishlist/wishlist.html">Wishlist</a></li>
+            </ul>
+        </div>
+        <div class="footer-name">Made with ❤️ by HiManshu ;)</div>
+    </footer>   
+  </body>
+</html>

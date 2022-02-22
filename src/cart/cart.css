@@ -1,0 +1,73 @@
+@import url(../../index.css);
+
+.main {
+  flex-direction: column;
+}
+
+.cart-heading {
+  margin: 3rem 0 2rem;
+}
+
+.products .card-text {
+  height: 100%;
+  margin-right: 0.5rem;
+}
+
+.card-quantity {
+  display: inline-block;
+  margin: 2rem 0 0.5rem;
+  font-weight: 500;
+}
+
+.card-quantity button {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  font-size: 1em;
+  background: none;
+  border: 1px solid var(--card-text);
+}
+
+.card-quantity input {
+  width: 2.5rem;
+  height: 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+
+.card-box-horizontal {
+  margin: 1.5rem;
+}
+
+.cart-content {
+  align-items: flex-start;
+}
+
+.cart-bill .card-text {
+  padding: 1rem;
+}
+
+.card-text hr {
+  margin: 0.5rem 0 1.5rem;
+}
+
+.card-text-only {
+  margin: 2.5rem;
+}
+
+.card-text-only button {
+  width: 90%;
+}
+
+.card-text div {
+  margin: 0.5rem 0;
+}
+
+.cart-bill-price {
+  margin-left: auto;
+}
+
+.cart-bill-final {
+  font-weight: 500;
+}
